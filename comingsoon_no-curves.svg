@@ -3,13 +3,26 @@
 <svg width="100%" height="100%" fill="url(#wolfGradient)" viewBox="0 0 526 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
 
 <defs>
-        <linearGradient id="wolfGradient" x1="30%" y1="70%">
+        <linearGradient id="wolfGradient" x1="50%" y1="50%">
             <stop offset="0" stop-color="#bebab4" />
             <stop offset="33%" stop-color="#46413b" />
-            <stop offset="66%" stop-color="#22232a" />
-            <stop offset="100%" stop-color="#020104" />
-            <animate attributeName="y1" dur="3s" from="70%" to="0%" repeateCount="indefinite"/>
+            <stop offset="89%" stop-color="#22232a" />
+            <stop offset="90%" stop-color="#020104" />
+            <animate attributeName="y1" dur="3s" from="50%" to="100%" repeatCount="indefinite"/>
+            <animate attributeName="y1" begin="3s" dur="3s" from="100%" to="50%" repeatCount="indefinite"/>
+            <!-- <animate attributeName="stop-color" values="#bebab4;#4g413b;#22232a;#020104" dur="3s"  repeatCount="indefinite" /> -->
         </linearGradient>
+
+
+        <!-- <linearGradient id="wolfGradient" x1="30%" y1="70%">
+        <stop offset="50%" stop-color="#bebab4">
+          <animate attributeName="stop-color" values="#bebab4; #46413b; #22232a; #020104; #020104; #22232a; #46413b; #bebab4" dur="6s" repeatCount="indefinite" />
+          <animate attributeName="offset" values=".0;.33;.66;.90;.90;.66;.33;.0;" dur="6s" repeatCount="indefinite"/>
+        </stop> -->
+      
+
+         
+        
     </defs>
 <text x="-2.96px" y="63.08px" style="font-family:'Aprille-Regular', 'Aprille';font-size:96px;">Coming Soon</text>
 
